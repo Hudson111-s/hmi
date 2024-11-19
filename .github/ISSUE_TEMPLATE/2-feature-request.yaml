@@ -6,7 +6,7 @@ projects: ["Gold-Rush-Robotics/2"]
 assignees:
   - dudebehinddude # assign it to PM to get a notif to sort/categorize it
 body:
-  - type: input
+  - type: textarea
     id: what
     attributes:
       label: WHAT IS REQUEST
