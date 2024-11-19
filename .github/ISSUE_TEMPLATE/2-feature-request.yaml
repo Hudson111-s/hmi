@@ -1,0 +1,27 @@
+name: Feature Request
+description: Request something to be added to the robot
+title: "[Request] "
+labels: ["enhancement"]
+projects: ["Gold-Rush-Robotics/2"]
+assignees:
+  - dudebehinddude # assign it to PM to get a notif to sort/categorize it
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: WHAT IS REQUEST
+      description: What do you want to add/request?
+      placeholder: I need the robot to do this...
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is it that this gets implemented? (Take your best guess)
+      options:
+        - High (blocking major development)
+        - Medium
+        - Low
+    validations:
+      required: true
