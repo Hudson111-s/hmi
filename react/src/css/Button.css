@@ -1,16 +1,16 @@
 .Button {
-	/* display: inline; */
-	padding: 4px;
-	margin: 2px;
-	border: 2px solid #a49665;
-	background-color: #005035;
-	color: white;
+  /* display: inline; */
+  padding: 4px;
+  margin: 2px;
+  border: 2px solid #a49665;
+  background-color: #005035;
+  color: white;
 }
 
 .Button:hover {
-	background-color: #003d29;
+  background-color: #003d29;
 }
 
 .Button:active {
-	background-color: #002719;
+  background-color: #002719;
 }

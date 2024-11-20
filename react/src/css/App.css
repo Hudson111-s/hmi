@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-	min-height: 100vh;
+  min-height: 100vh;
   /* display: flex; */
   /* flex-direction: row; */
   /* align-items: center; */
@@ -34,46 +34,46 @@
 }
 
 .StatusOk {
-	display: inline-block;
-	margin-right: .25em;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	background-color: limegreen;
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background-color: limegreen;
 }
 
 .StatusLoading {
-	display: inline-block;
-	margin-right: .25em;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	background-color: magenta;
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background-color: magenta;
 }
 
 .StatusWarning {
-	display: inline-block;
-	margin-right: .25em;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	background-color: orange;
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background-color: orange;
 }
 
 .StatusError {
-	display: inline-block;
-	margin-right: .25em;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	background-color: red;
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background-color: red;
 }
 
 .StatusOffline {
-	display: inline-block;
-	margin-right: .25em;
-	width: .5em;
-	height: .5em;
-	border-radius: 1em;
-	background-color: lightgray;
+  display: inline-block;
+  margin-right: 0.25em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 1em;
+  background-color: lightgray;
 }
