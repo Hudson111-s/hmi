@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./css/App.css";
-import Button from "./components/Button";
-import { Status } from "./types/status";
+import "css/App.css";
+import Button from "components/Button";
+import { Status } from "types/status";
 
 function App() {
   const [botStatus, setBotStatus] = useState(Status.Offline);

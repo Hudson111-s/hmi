@@ -1,6 +1,6 @@
-import "../css/Button.css";
+import { ButtonProps } from "types/button";
+import "css/Button.css";
 import StatusIndicator from "./StatusIndicator";
-import { ButtonProps } from "../types/button";
 
 function Button(props: ButtonProps) {
   return (

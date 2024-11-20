@@ -5,3 +5,4 @@ export type ButtonProps = {
   onClick?: () => void;
   status?: Status;
 };
+export { Status };
