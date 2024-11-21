@@ -13,7 +13,7 @@ import {
 } from "types/websocket";
 
 const WebSocketContext = createContext<WebSocketContextType | undefined>(
-  undefined
+  undefined,
 );
 
 export function WebSocketProvider({ children }: { children: React.ReactNode }) {

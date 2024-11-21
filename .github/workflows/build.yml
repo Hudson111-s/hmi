@@ -30,6 +30,6 @@ jobs:
           cache: "yarn"
           cache-dependency-path: react/yarn.lock
       - run: yarn
-      - run: npx prettier . --check
       - run: yarn build --if-present
       - run: yarn test
+      - run: yarn prettier . --check
