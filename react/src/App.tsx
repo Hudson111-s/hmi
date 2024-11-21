@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "css/App.css";
 import Button from "components/Button";
 import { Status } from "types/status";
+import Console from "components/Console";
+import { WebSocketProvider } from "components/WebSocketContext";
 
 function App() {
   const [botStatus, setBotStatus] = useState(Status.Offline);
@@ -12,6 +14,10 @@ function App() {
       setBotStatus(Status.Loading);
       // set to Status.Ok in 5s
     }
+  }
+  function stopBot() {
+    if (botStatus !== Status.Ok) return;
+    setBotStatus(Status.Offline);
   }
 
   useEffect(() => {
@@ -26,8 +32,11 @@ function App() {
 
   return (
     <div className="App">
-      <Button name="Start" status={botStatus} onClick={startBot} />
-      <Button name="Another Button" />
+      <WebSocketProvider>
+        <Button name="Start" status={botStatus} onClick={startBot} />
+        <Button name="Bad Button" onClick={stopBot} />
+        <Console />
+      </WebSocketProvider>
     </div>
   );
 }
