@@ -1,0 +1,25 @@
+.Console {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    margin: 10px;
+    font-size: xx-large;
+  }
+}
+
+.ConsoleBody {
+  align-self: center;
+  font-size: small;
+  background-color: #000000d8;
+  color: white;
+  text-align: left;
+  width: 80vw;
+  height: 60vh;
+  text-align: left;
+  overflow-y: scroll;
+  border-radius: 1em;
+  padding: 0.5em;
+}
