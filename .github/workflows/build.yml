@@ -12,7 +12,7 @@ on:
 
 defaults:
   run:
-    working-directory: react
+    working-directory: app
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
-          cache-dependency-path: react/yarn.lock
+          cache-dependency-path: app/yarn.lock
       - run: yarn
       - run: npx prettier . --check
       - run: yarn build --if-present
