@@ -1,0 +1,7 @@
+# Ignore yarn.lock and other Yarn-specific files
+yarn.lock
+package.json
+**/node_modules/*
+
+# Build folder
+**/dist/*
