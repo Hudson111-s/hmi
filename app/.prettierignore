@@ -3,5 +3,6 @@ yarn.lock
 package.json
 **/node_modules/*
 
-# Build folder
+# Build folders
 **/dist/*
+**/coverage/*
